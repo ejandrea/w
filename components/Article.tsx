@@ -33,7 +33,9 @@ const Article = () => {
             <p className="text-3xl text-grayish-blue-100 font-bold">
               {`0${index + 1}`}
             </p>
-            <h4 className="font-bold text-xl">{card.header}</h4>
+            <h4 className="font-bold text-xl hover:text-orange hover:cursor-pointer">
+              {card.header}
+            </h4>
             <p className="text-grayish-blue-900 text-md">{card.desc}</p>
           </div>
         </article>
