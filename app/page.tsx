@@ -1,9 +1,13 @@
+import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
-    <main className="px-3 py-4">
-      <Nav />
-    </main>
+    <div className="px-4 py-5">
+      <header>
+        <Nav />
+        <Hero />
+      </header>
+    </div>
   );
 }
