@@ -17,8 +17,10 @@ const NewsArticle = () => {
     <>
       {articles.map((article, index) => (
         <section className="text-off-white mb-5">
-          <h3 className="text-xl font-bold mb-3">{article.header}</h3>
-          <p className="text-grayish-blue-100">{article.desc}</p>
+          <h3 className="text-lg font-bold mb-3 hover:text-orange hover:cursor-pointer">
+            {article.header}
+          </h3>
+          <p className="text-grayish-blue-100 ">{article.desc}</p>
           {index != articles.length - 1 && (
             <hr className="text-grayish-blue-100 mt-10" />
           )}
