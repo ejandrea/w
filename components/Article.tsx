@@ -34,7 +34,7 @@ const Article = () => {
               {`0${index + 1}`}
             </p>
             <h4 className="font-bold text-xl">{card.header}</h4>
-            <p className="text-grayish-blue-900 text-lg">{card.desc}</p>
+            <p className="text-grayish-blue-900 text-md">{card.desc}</p>
           </div>
         </article>
       ))}

@@ -5,7 +5,7 @@ import News from "@/components/News";
 
 export default function Home() {
   return (
-    <div className="px-4 py-10 tracking-tighter mb-">
+    <div className="px-4 py-10 tracking-tighter">
       <Nav />
       <Hero />
       <News />
